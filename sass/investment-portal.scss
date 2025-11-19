@@ -1,0 +1,27 @@
+.investment-portal-section {
+  margin-bottom: 40px;
+}
+
+.project-card,
+.land-plot-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.land-plots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+#load-more-plots {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
