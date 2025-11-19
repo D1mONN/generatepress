@@ -109,6 +109,8 @@ if ( is_admin() ) {
 	require $theme_dir . '/inc/class-dashboard.php';
 }
 
+require $theme_dir . '/inc/investment-portal.php';
+
 /**
  * Load our theme structure
  */
